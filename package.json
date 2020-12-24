@@ -1,0 +1,17 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tailwindcss build css/style.css -o ./public/css/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
